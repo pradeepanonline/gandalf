@@ -5,13 +5,24 @@ from openai import OpenAI
 import os
 from retriever import retrieve_top_matches
 
+st.set_page_config(page_title="Compliance Copilot (RAG)", layout="centered")
+
+st.markdown(
+    """
+    <div style="text-align:center;">
+        <img src="https://cdn.pixabay.com/photo/2023/08/11/05/44/ai-generated-8182842_1280.jpg" alt="Gandalf Banner" style="width: 50%; height: auto; border-radius: 10px;" />
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+# Streamlit UI
+st.title("🤖 Ask Gandalf")
+st.markdown("Ask anything about Compliance principles.")
+
 # Setup OpenAI client
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-# Streamlit UI
-st.set_page_config(page_title="Compliance Copilot (RAG)", layout="centered")
-st.title("🤖 Ask Me Anything — Powered by Your Principles + RAG")
-st.markdown("Ask a question, and I’ll answer using the most relevant principles from your knowledge base.")
 
 user_question = st.text_area("💬 Your Question", height=150)
 
