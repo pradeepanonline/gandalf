@@ -1,0 +1,154 @@
+[
+  {
+    "domain": "coding",
+    "id": "Principle 1",
+    "title": "Meaningful Naming",
+    "rationale": "Clear and descriptive names improve code readability and understanding.",
+    "implementation": "Use descriptive names for variables, methods, and classes. Avoid single-letter names except for loop counters. Follow consistent naming conventions (camelCase, PascalCase).",
+    "benefits": "Reduced code comprehension time, fewer errors, easier collaboration."
+  },
+  {
+    "domain": "coding",
+    "id": "Principle 2",
+    "title": "Consistent Formatting",
+    "rationale": "Uniform code style enhances readability and reduces cognitive load.",
+    "implementation": "Adhere to a consistent code style (indentation, spacing). Use a code formatter.",
+    "benefits": "Improved readability, reduced visual noise, easier code reviews."
+  },
+  {
+    "domain": "coding",
+    "id": "Principle 3",
+    "title": "Clear Comments",
+    "rationale": "Comments explain complex logic and provide context.",
+    "implementation": "Write concise comments for complex logic. Use Javadoc for API documentation. Avoid redundant comments.",
+    "benefits": "Improved code understanding, easier maintenance, better documentation."
+  },
+  {
+    "domain": "coding",
+    "id": "Principle 4",
+    "title": "Short Methods",
+    "rationale": "Small methods are easier to understand, test, and maintain.",
+    "implementation": "Methods should perform a single, well-defined task. Break down large methods into smaller ones.",
+    "benefits": "Improved readability, easier testing, reduced complexity."
+  },
+  {
+    "domain": "coding",
+    "id": "Principle 5",
+    "title": "Avoid Magic Numbers",
+    "rationale": "Named constants improve code clarity and maintainability.",
+    "implementation": "Replace literal values with named constants (final variables).",
+    "benefits": "Improved readability, easier modification, reduced errors."
+  },
+  {
+    "domain": "coding",
+    "id": "Principle 6",
+    "title": "Exception Handling",
+    "rationale": "Graceful error handling prevents application crashes and provides meaningful feedback.",
+    "implementation": "Use try-catch blocks for exception handling. Throw specific exceptions. Use finally blocks for cleanup.",
+    "benefits": "Robust applications, improved user experience, easier debugging."
+  },
+  {
+    "domain": "coding",
+    "id": "Principle 7",
+    "title": "Input Validation",
+    "rationale": "Validating input prevents unexpected behavior and security vulnerabilities.",
+    "implementation": "Validate all input data. Use defensive programming techniques. Perform null checks.",
+    "benefits": "Robust applications, improved security, reduced errors."
+  },
+  {
+    "domain": "coding",
+    "id": "Principle 8",
+    "title": "Resource Management",
+    "rationale": "Proper resource management prevents resource leaks.",
+    "implementation": "Use try-with-resources or finally blocks to close resources (files, connections).",
+    "benefits": "Efficient resource utilization, reduced memory leaks, improved stability."
+  },
+  {
+    "domain": "coding",
+    "id": "Principle 9",
+    "title": "Encapsulation",
+    "rationale": "Hiding internal details promotes data integrity and reduces dependencies.",
+    "implementation": "Hide internal implementation details. Provide controlled access through public methods (getters/setters).",
+    "benefits": "Improved maintainability, reduced coupling, increased flexibility."
+  },
+  {
+    "domain": "coding",
+    "id": "Principle 10",
+    "title": "Inheritance",
+    "rationale": "Inheritance creates a hierarchy of related classes.",
+    "implementation": "Use inheritance for 'is-a' relationships. Favor composition over inheritance where suitable.",
+    "benefits": "Code reuse, improved organization, polymorphism."
+  },
+  {
+    "domain": "coding",
+    "id": "Principle 11",
+    "title": "Polymorphism",
+    "rationale": "Polymorphism enables objects of different classes to be treated as objects of a common type.",
+    "implementation": "Use interfaces and abstract classes. Implement method overriding.",
+    "benefits": "Flexibility, extensibility, improved code organization."
+  },
+  {
+    "domain": "coding",
+    "id": "Principle 12",
+    "title": "Abstraction",
+    "rationale": "Abstraction focuses on essential features and hides unnecessary details.",
+    "implementation": "Use abstract classes and interfaces. Define abstract concepts.",
+    "benefits": "Improved code clarity, reduced complexity, easier maintenance."
+  },
+  {
+    "domain": "coding",
+    "id": "Principle 13",
+    "title": "SOLID Principles",
+    "rationale": "SOLID principles promote maintainable and scalable code.",
+    "implementation": "Adhere to the Single Responsibility Principle, Open/Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, and Dependency Inversion Principle.",
+    "benefits": "Improved maintainability, reduced coupling, increased flexibility."
+  },
+  {
+    "domain": "low-level design",
+    "id": "Principle 14",
+    "title": "Design Patterns",
+    "rationale": "Design patterns provide proven solutions to common design problems.",
+    "implementation": "Use appropriate creational, structural, and behavioral patterns. Avoid over-engineering.",
+    "benefits": "Improved code structure, reduced development time, easier maintenance."
+  },
+  {
+    "domain": "low-level design",
+    "id": "Principle 15",
+    "title": "Code Modularity and Reusability",
+    "rationale": "Modular and reusable code reduces redundancy and improves maintainability.",
+    "implementation": "Break down complex systems into modules. Create reusable components. Use libraries and frameworks.",
+    "benefits": "Reduced code duplication, improved maintainability, faster development."
+  },
+  {
+    "domain": "low-level design",
+    "id": "Principle 16",
+    "title": "Separation of Concerns (SoC)",
+    "rationale": "SoC improves maintainability and reduces the impact of changes.",
+    "implementation": "Divide the application into distinct parts, each responsible for a specific concern (e.g., presentation, business logic, data access).",
+    "benefits": "Improved maintainability, reduced complexity, easier testing."
+  },
+  {
+    "domain": "low-level design",
+    "id": "Principle 17",
+    "title": "Maintainability and Testability",
+    "rationale": "Maintainable and testable code reduces bugs and simplifies maintenance.",
+    "implementation": "Write unit tests. Use mocking frameworks. Design for easy debugging. Log important events.",
+    "benefits": "Reduced bugs, easier debugging, improved code quality."
+  },
+  {
+    "domain": "low-level design",
+    "id": "Principle 18",
+    "title": "Concurrency and Thread Safety",
+    "rationale": "Proper concurrency handling prevents race conditions and deadlocks.",
+    "implementation": "Use synchronization mechanisms. Avoid race conditions and deadlocks. Use thread-safe data structures.",
+    "benefits": "Robust concurrent applications, improved performance, reduced errors."
+  },
+  {
+    "domain": "low-level design",
+    "id": "Principle 19",
+    "title": "Performance Optimization",
+    "rationale": "Optimized code improves application performance.",
+    "implementation": "Identify and address bottlenecks. Use efficient algorithms and data structures. Minimize object creation. Optimize database queries.",
+    "benefits": "Faster applications, improved user experience, efficient resource utilization."
+  }
+]
