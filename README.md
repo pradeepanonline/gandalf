@@ -130,7 +130,7 @@ You can customize:
 
 ## 📸 Screenshot
 
-![Gandalf RAG Screenshot](https://i.imgur.com/7mjc4fO.jpg)
+![Gandalf RAG Screenshot]([https://i.imgur.com/7mjc4fO.jpg](https://cdn.pixabay.com/photo/2023/08/11/05/44/ai-generated-8182842_1280.jpg))
 
 ---
 
